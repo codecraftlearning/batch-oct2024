@@ -1,6 +1,3 @@
-Here’s a sample README content for the repository `batch-oct2024`, tailored for users who are new to Git:
-
----
 
 # Batch October 2024 - Code Craft Learning
 
@@ -76,7 +73,3 @@ Follow these steps to clone the repository to your local machine:
 - [Understanding Branches](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 
 If you have any questions or need help, feel free to reach out to the admin.
-
----
-
-This README will help guide new users with the correct steps to set up and follow the repository workflow, ensuring smooth collaboration.
