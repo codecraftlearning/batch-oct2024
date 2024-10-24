@@ -1,23 +1,62 @@
 
 <div>
 
-    <form>
-
+    <form action="/submit-form" method="post">
         <div>
             <label for="contestantName">Name</label>
-            <input id="contestantName" type="text" placeholder="Your Name here!!">
+            <input id="contestantName" name="contestantName" type="text" placeholder="Your Name here!!">
         </div>
         <div>
             <label for="c1">C1</label>
-            <input id="c1" type="number" placeholder="#">
+            <input id="c1" name="c1" type="number" placeholder="#">
         </div>
         <div>
             <label for="c2">C2</label>
-            <input id="c2" type="number" placeholder="#">
+            <input id="c2" name="c2" type="number" placeholder="#">
         </div>
         <div>
             <label for="c3">C3</label>
-            <input id="c3" type="number" placeholder="#">
+            <input id="c3" name="c3" type="number" placeholder="#">
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+                <option value="G1">Male</option>
+                <option value="G2">Female</option>
+                <option value="G3">Prefer Not say</option>
+            </select>
+        </div>
+        <div>
+            <label for="hobbies">Hobbies</label>
+            <select name="hobbies" id="hobbies" multiple="true">
+                <option value="H1">Singing</option>
+                <option value="H2">Dancing</option>
+                <option value="H3">Movies</option>
+                <option value="H4">Reading</option>
+            </select>
+        </div>
+        <div>
+            <span>Nation:</span>
+            
+            <label for="ind">Indian</label>
+            <input id="ind" type="radio" value="indian" name="nation">
+            
+            <label for="amc">American</label>
+            <input id="amc" type="radio" value="american" name="nation">
+            
+            <label for="oth">Other</label>
+            <input id="oth" type="radio" value="other" name="nation">
+        </div>
+
+        <div>
+            <span>Education:</span>
+            <label for="mat">Matriculate</label>
+            <input type="checkbox" name="education" id="mat" value="10">
+            <label for="int">Intermediate</label>
+            <input type="checkbox" name="education" id="int" value="12">
+            <label for="grad">Graduation</label>
+            <input type="checkbox" name="education" id="grad" value="graduation">
+           
         </div>
         <div>
             <input type="submit" value="Submit">
@@ -25,6 +64,7 @@
     </form>
 
 </div>
+
 
 <button>Some Action</button>
 
