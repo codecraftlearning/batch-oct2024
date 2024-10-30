@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Borrow a Book - Library Portal</title>
+</head>
+<body>
+    <h1>Borrow a Book</h1>
+    <form action="/submit-borrow" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input id="name" name="name" type="text" placeholder="Enter your name">
+        </div>
+        <div>
+            <label for="bookTitle">Book Title:</label>
+            <select id="bookTitle" name="bookTitle">
+                <option value="The Great Gatsby">The Great Gatsby</option>
+                <option value="1984">1984</option>
+                <option value="To Kill a Mockingbird">To Kill a Mockingbird</option>
+            </select>
+        </div>
+        <div>
+            <label for="memberID">Membership ID:</label>
+            <input id="memberID" name="memberID" type="text" placeholder="Your Membership ID">
+        </div>
+        <div>
+            <span>Pickup Location:</span>
+            <label for="mainBranch">Main Branch</label>
+            <input id="mainBranch" type="radio" name="pickupLocation" value="Main Branch">
+            <label for="cityCenter">City Center Branch</label>
+            <input id="cityCenter" type="radio" name="pickupLocation" value="City Center Branch">
+        </div>
+        <div>
+            <label for="terms">
+                <input type="checkbox" id="terms" name="terms"> I agree to the Terms and Conditions
+            </label>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
