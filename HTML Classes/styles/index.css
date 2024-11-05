@@ -1,0 +1,72 @@
+body {
+    padding: 20px;
+    background-color: rgb(255, 200, 127);
+}
+
+
+#header-img-section {
+    padding: 40px;
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: black; */
+    /* border: 1px solid black; */
+    /* width: 481px; */
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 8px;   
+}
+
+#header-img-section > img {
+    width: 200px;
+    aspect-ratio: 16/9;
+    margin-left: calc(50% - 100px);
+}
+
+.header-section {
+    border: 1px solid black;       
+    padding: 4px;    
+    margin-top: 200px; 
+}
+
+.header-section > h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    text-align: left;
+}
+
+.basic-row-gap {
+    margin-top: 20px;
+}
+
+
+.contestant-table {
+    background-color: beige;
+    padding: 12px;
+    table-layout: auto;
+    border-radius: 8px;
+    cursor: cell;
+}
+
+.table-row > .table-header {
+    color: #fff;
+    background-color: rgb(61, 61, 61);
+}
+
+.table-row > .table-header, .table-data {
+    width: 100px;
+    height: 24px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+tbody > .table-row:nth-child(even) {
+    background-color: rgb(192, 192, 248);
+}
+tbody > .table-row:nth-child(odd) {
+    background-color: rgb(192, 248, 215);
+}
+
+tbody > .table-row:hover {
+    background-color: darkslategrey;
+    color: antiquewhite;
+}
