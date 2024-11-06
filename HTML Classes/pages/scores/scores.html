@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scores</title>
+    <link rel="stylesheet" href="scores.css">
+</head>
+
+<body class="p-8">
+    <form action="/submit-form" method="post">
+        <div class="m-b-4">
+            <label class="w-100" for="contestantName">Name</label>
+            <input class="w-200 m-l-4 p-h-4 p-v-8" id="contestantName" name="contestantName" type="text" placeholder="Your Name here!!">
+        </div>
+        <div class="m-b-4">
+            <label class="w-100" for="c1">C1</label>
+            <input class="w-200 m-l-4 p-h-4 p-v-8" id="c1" name="c1" type="number" placeholder="#">
+        </div>
+        <div class="m-b-4">
+            <label class="w-100" for="c2">C2</label>
+            <input class="w-200 m-l-4 p-h-4 p-v-8" id="c2" name="c2" type="number" placeholder="#">
+        </div>
+        <div class="m-b-4">
+            <label class="w-100" for="c3">C3</label>
+            <input class="w-200 m-l-4 p-h-4 p-v-8" id="c3" name="c3" type="number" placeholder="#">
+        </div>
+        <div class="m-b-4">
+            <label class="w-100" for="gender">Gender</label>
+            <select name="gender" class="w-200 m-l-4 p-h-4 p-v-8" id="gender">
+                <option value="G1">Male</option>
+                <option value="G2">Female</option>
+                <option value="G3">Prefer Not say</option>
+            </select>
+        </div>
+        <div class="m-b-4">
+            <label class="w-100" for="hobbies">Hobbies</label>
+            <select name="hobbies" class="w-200 m-l-4 p-h-4 p-v-8" id="hobbies" multiple="true">
+                <option value="H1">Singing</option>
+                <option value="H2">Dancing</option>
+                <option value="H3">Movies</option>
+                <option value="H4">Reading</option>
+            </select>
+        </div>
+        <div class="m-b-4">
+            <span>Nation:</span>
+
+            <label class="w-100" for="ind">Indian</label>
+            <input class="w-200 m-l-4 p-h-4 p-v-8" id="ind" type="radio" value="indian" name="nation">
+
+            <label class="w-100" for="amc">American</label>
+            <input class="w-200 m-l-4 p-h-4 p-v-8" id="amc" type="radio" value="american" name="nation">
+
+            <label class="w-100" for="oth">Other</label>
+            <input class="w-200 m-l-4 p-h-4 p-v-8" id="oth" type="radio" value="other" name="nation">
+        </div>
+
+        <div class="m-b-4">
+            <span>Education:</span>
+            <label class="w-100" for="mat">Matriculate</label>
+            <input type="checkbox" name="education" class="w-200 m-l-4 p-h-4 p-v-8" id="mat" value="10">
+            <label class="w-100" for="int">Intermediate</label>
+            <input type="checkbox" name="education" class="w-200 m-l-4 p-h-4 p-v-8" id="int" value="12">
+            <label class="w-100" for="grad">Graduation</label>
+            <input type="checkbox" name="education" class="w-200 m-l-4 p-h-4 p-v-8" id="grad" value="graduation">
+
+        </div>
+        <div class="m-b-4 m-t-16">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+    </div>
+
+
+    <button>Some Action</button>
+
+    <div>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>c1</th>
+                    <th>c2</th>
+                    <th>c3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sneha</td>
+                    <td>8</td>
+                    <td>7</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Tushar</td>
+                    <td>8</td>
+                    <td>7</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Sonal</td>
+                    <td>8</td>
+                    <td>8</td>
+                    <td>5</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+</body>
+
+</html>
+<div>

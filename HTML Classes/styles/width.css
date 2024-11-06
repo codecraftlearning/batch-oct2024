@@ -1,0 +1,26 @@
+.w-min {
+    width: min-content;
+}
+
+.w-max {
+    width: max-content;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-auto {
+    width: auto;
+}
+
+.w-screen {
+    width: 100vh;
+}
+
+.w-100 {
+    width: 100px;
+}
+.w-200 {
+    width: 200px;
+}

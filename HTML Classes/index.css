@@ -1,0 +1,14 @@
+@import url('./styles/style.css');
+
+
+@media (max-width: 1200px) {
+    .logo-image {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 800px) {
+    .logo-image {
+        width: 100px;
+    }
+}
