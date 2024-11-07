@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,33 +11,33 @@
 
 <body class="p-8">
     <form action="/submit-form" method="post">
-        <div class="m-b-4">
+        <div class="m-b-4 required-value">
             <label class="w-100" for="contestantName">Name</label>
-            <input class="w-200 m-l-4 p-h-4 p-v-8" id="contestantName" name="contestantName" type="text" placeholder="Your Name here!!">
+            <input class="w-200 m-l-4 p-h-4 p-v-8 " id="contestantName" name="contestantName" type="text" placeholder="Your Name here!!">
         </div>
-        <div class="m-b-4">
+        <div class="m-b-4 required-value">
             <label class="w-100" for="c1">C1</label>
-            <input class="w-200 m-l-4 p-h-4 p-v-8" id="c1" name="c1" type="number" placeholder="#">
+            <input class="w-200 m-l-4 p-h-4 p-v-8 " id="c1" name="c1" type="number" placeholder="#">
         </div>
-        <div class="m-b-4">
+        <div class="m-b-4 required-value">
             <label class="w-100" for="c2">C2</label>
-            <input class="w-200 m-l-4 p-h-4 p-v-8" id="c2" name="c2" type="number" placeholder="#">
+            <input class="w-200 m-l-4 p-h-4 p-v-8 " id="c2" name="c2" type="number" placeholder="#">
         </div>
-        <div class="m-b-4">
+        <div class="m-b-4 required-value">
             <label class="w-100" for="c3">C3</label>
-            <input class="w-200 m-l-4 p-h-4 p-v-8" id="c3" name="c3" type="number" placeholder="#">
+            <input class="w-200 m-l-4 p-h-4 p-v-8 " id="c3" name="c3" type="number" placeholder="#">
         </div>
-        <div class="m-b-4">
+        <div class="m-b-4 required-value">
             <label class="w-100" for="gender">Gender</label>
-            <select name="gender" class="w-200 m-l-4 p-h-4 p-v-8" id="gender">
+            <select name="gender" class="w-200 m-l-4 p-h-4 p-v-8 " id="gender">
                 <option value="G1">Male</option>
                 <option value="G2">Female</option>
                 <option value="G3">Prefer Not say</option>
             </select>
         </div>
-        <div class="m-b-4">
+        <div class="m-b-4 required-value">
             <label class="w-100" for="hobbies">Hobbies</label>
-            <select name="hobbies" class="w-200 m-l-4 p-h-4 p-v-8" id="hobbies" multiple="true">
+            <select name="hobbies" class="w-200 m-l-4 p-h-4 p-v-8 " id="hobbies" multiple="true">
                 <option value="H1">Singing</option>
                 <option value="H2">Dancing</option>
                 <option value="H3">Movies</option>
@@ -46,14 +47,22 @@
         <div class="m-b-4">
             <span>Nation:</span>
 
-            <label class="w-100" for="ind">Indian</label>
-            <input class="w-200 m-l-4 p-h-4 p-v-8" id="ind" type="radio" value="indian" name="nation">
+            <div class="radio-group-buttons">
+                <div class="radio-group-item active">
+                    <label class="w-100" for="ind">Indian</label>
+                    <input class="w-200 m-l-4 p-h-4 p-v-8" id="ind" type="radio" value="indian" name="nation">
+                </div>
 
-            <label class="w-100" for="amc">American</label>
-            <input class="w-200 m-l-4 p-h-4 p-v-8" id="amc" type="radio" value="american" name="nation">
+                <div class="radio-group-item ">
+                    <label class="w-100" for="amc">American</label>
+                    <input class="w-200 m-l-4 p-h-4 p-v-8" id="amc" type="radio" value="american" name="nation">
+                </div>
 
-            <label class="w-100" for="oth">Other</label>
-            <input class="w-200 m-l-4 p-h-4 p-v-8" id="oth" type="radio" value="other" name="nation">
+                <div class="radio-group-item">
+                    <label class="w-100" for="oth">Other</label>
+                    <input class="w-200 m-l-4 p-h-4 p-v-8" id="oth" type="radio" value="other" name="nation">
+                </div>
+            </div>
         </div>
 
         <div class="m-b-4">
@@ -67,16 +76,14 @@
 
         </div>
         <div class="m-b-4 m-t-16">
-            <input type="submit" value="Submit">
+            <input class="form-submit p-h-16 p-v-4" type="submit" value="Submit">
         </div>
     </form>
 
     </div>
 
 
-    <button>Some Action</button>
-
-    <div>
+    <div class="score-table">
         <table border="2">
             <thead>
                 <tr>

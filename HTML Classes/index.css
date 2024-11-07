@@ -1,14 +1,40 @@
 @import url('./styles/style.css');
 
-
-@media (max-width: 1200px) {
+.logo-image {
+    width: 1000px;
+}
+@media (max-width: 1000px) {
     .logo-image {
-        width: 1000px;
+        width: 800px;
     }
 }
 
 @media (max-width: 800px) {
     .logo-image {
+        width: 600px;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo-image {
+        width: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    .logo-image {
+        width: 200px;
+    }
+}
+
+@media (max-width: 200px) {
+    .logo-image {
         width: 100px;
+    }
+}
+
+@media (max-width: 100px) {
+    .logo-image {
+        width: 50px;
     }
 }

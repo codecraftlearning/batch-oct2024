@@ -4,3 +4,43 @@
 @import url('./width.css');
 
 
+.radio-group-buttons {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgb(67, 54, 78);
+    width: 300px;
+    border-radius: 4px;
+}
+
+.radio-group-buttons > .radio-group-item {
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-right: 1px solid white;
+    padding: 4px;
+}
+
+.radio-group-item:last-child {
+    border: none;
+}
+
+.radio-group-item:hover {
+    background-color: rgb(106, 85, 122);
+}
+
+.radio-group-item > input {
+    display: none;
+} 
+
+.radio-group-item > label {
+    cursor: pointer;
+}
+
+
+.radio-group-item.active {
+    background-color: rgb(106, 85, 122);
+}
