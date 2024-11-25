@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../HTML Classes/styles/style.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body class="m-16">
+
+    <div class="calculator-body">
+        <div type="text" class="calculator-display" 
+            id="calculatorDisplay" >
+        </div>
+
+        <div class="calculator-buttons">
+            <button class="calculator-button" onclick="ce()">CE</button>
+            <button class="calculator-button" onclick="push(1)">1</button>
+            <button class="calculator-button" onclick="push(2)">2</button>
+            <button class="calculator-button" onclick="push(3)">3</button>
+            <button class="calculator-button" onclick="push(4)">4</button>
+            <button class="calculator-button" onclick="push(5)">5</button>
+            <button class="calculator-button" onclick="push(6)">6</button>
+            <button class="calculator-button" onclick="push(7)">7</button>
+            <button class="calculator-button" onclick="push(8)">8</button>
+            <button class="calculator-button" onclick="push(9)">9</button>
+            <button class="calculator-button" onclick="push(0)">0</button>
+            <button class="calculator-button" onclick="operate('+')">+</button>
+            <button class="calculator-button" onclick="operate('-')">-</button>
+            <button class="calculator-button" onclick="operate('/')">/</button>
+            <button class="calculator-button" onclick="operate('*')">*</button>
+        </div>
+        <div >
+            <button class="calculate-button" onclick="calculate()">=</button>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
