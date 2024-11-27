@@ -23,6 +23,12 @@ function calculate() {
 */
 
 
+//for dsa  => 
+    //  https://www.hackerrank.com/
+    // https://leetcode.com/
+    // https://www.hackerearth.com/
+
+
 function loadData() {
 
     console.log("started loading the data");
